@@ -5,8 +5,8 @@ const serverSettings = {
 
 // user management service parameters
 const userManagementOptions = {
-	host: "192.168.99.100",
-	port: 3001
+	host: "10.108.219.82",
+	port: 80
 }
 
 module.exports = Object.assign({}, { serverSettings, userManagementOptions })

@@ -6,7 +6,7 @@ const serverSettings = {
 // user management service parameters
 const userManagementOptions = {
 	//host: "10.108.79.48",
-	host: "http://user-management"
+	host: "user-management"
 	port: 3001
 }
 

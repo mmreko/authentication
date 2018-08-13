@@ -87,8 +87,10 @@ const repository = () => {
 					}
 					result = passwordHash.verify(password, researcher.password)
 					if (!result) {
+						console.log("Failed authentication")
 						resolve(null)
 					}
+					console.log("Repo: " + researcher)
 					resolve(researcher)
 				});
 			});

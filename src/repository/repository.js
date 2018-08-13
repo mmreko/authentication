@@ -90,7 +90,7 @@ const repository = () => {
 						console.log("Failed authentication")
 						resolve(null)
 					}
-					console.log("Repo: " + researcher)
+					console.log("Repo: " + researcher.email)
 					resolve(researcher)
 				});
 			});

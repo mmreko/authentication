@@ -8,7 +8,7 @@ module.exports = (app, options) => {
 	// POST /authentication/login
 	app.post('/authentication/login', (req, res, next) => {
 		repo.login(req.body.email, req.body.password).then(researcher => {
-			console.log("API:" + researcher)
+			console.log("API:" + researcher.email)
 			res.status(status.OK).json(researcher)
 		}).catch(next)
 	})
